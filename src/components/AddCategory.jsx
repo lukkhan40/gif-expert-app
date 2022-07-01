@@ -16,7 +16,7 @@ export const AddCategory = ({ addCategory }) => {
   const changeInputValue = (e) => setInputValue(e.target.value);
 
   return (
-    <form onSubmit={submitData}>
+    <form onSubmit={submitData} aria-label="form">
       <input
         type="text"
         placeholder="Buscar gifs"
